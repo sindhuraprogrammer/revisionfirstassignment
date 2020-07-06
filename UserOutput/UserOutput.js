@@ -3,7 +3,6 @@ import './UserOutput.css';
 
 const UserOutput =(props)=>{
   const parastyle={
-    textAlign: 'center',
     color: 'green',
     fontFamily: 'Arial'
   }
