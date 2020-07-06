@@ -8,7 +8,7 @@ const UserOutput =(props)=>{
   }
   return (
     <div>
-    <h1  className="UserOutput">UserName is {props.username}</h1>
+    <h1 className="UserOutput">UserName is {props.username}</h1>
     <p style={parastyle}>React Course</p>
     <p>this is first assignment</p>
    </div>
