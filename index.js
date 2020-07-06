@@ -17,12 +17,21 @@ changeUsernameHandler=(event)=>{
 username:event.target.value
 })
 }
-
+  teststyleout={
+    color: 'orange',
+    fontFamily: 'Arial'
+  }
   render() {
+    const teststylein={
+    color: 'red',
+    fontFamily: 'Arial'
+  }
     return (
       <div>
       <UserInput change={this.changeUsernameHandler} username={this.state.username}/>
        <UserOutput username={this.state.username}/>
+       <p style={this.teststyleout}>successfully</p>
+       <p style={teststylein}>Completed</p>
        </div>
     );
   }
